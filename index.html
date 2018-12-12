@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="H5">
+    <meta name="description" content="h5动画">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/swiper-3.4.1.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div class="loading-overlay">
+    <img src="images/loading.svg">
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide-1">
+            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s"
+                 data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">
+                君の名前（なまえ）、心でつぶやいた。この仆の思いは、そこに届かないのに。
+            </p>
+        </div>
+        <div class="swiper-slide slide-2">
+            <div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s"
+                 data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">I'm a
+                ほどほどに爱しなさい。长続きする恋はそういう恋だよ。
+            </p>
+        </div>
+        <div class="swiper-slide slide-3">
+            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">I'm a
+                もしあの时あなたにあってなかったら、こんなにも深く谁かを爱することを、知らずに生きたでしょう。
+            </p>
+        </div>
+        <div class="swiper-slide slide-4">
+            <div class="item-image animated" data-ani-name="zoomInUp" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="zoomInDown" data-ani-duration="1s" data-ani-delay="0.3s">I'm a
+                .あわてて、あなたが瞳に、スケッチをした景色、私にも教えて。
+            </p>
+        </div>
+        <div class="swiper-slide slide-5">
+            <div class="item-image animated" data-ani-name="rotateIn" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="rotateIn" data-ani-duration="1s" data-ani-delay="0.3s">I'm a
+                ひっそり远くから、もしかすると离（はな）し难（がた）いのか。黙々（もくもく）と静かに、もしかするととても価値（かち）があるのか。仆はまだここで待っている。
+            </p>
+        </div>
+    </div>
+</div>
+
+<button class="up-arrow">
+    <i class="icon-angle-double-up"></i>
+</button>
+
+<button class="btn-music">
+    <i class="icon-note"></i>
+</button>
+
+<audio loop autoplay="autoplay">
+    <source src="audios/background.mp3" type="audio/mpeg">
+</audio>
+</body>
+
+</html>
